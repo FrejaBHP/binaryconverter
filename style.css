@@ -1,0 +1,16 @@
+input, label {
+    display:block;
+}
+
+.WindowLeft {
+    float:left;
+    width:50%;
+}
+
+.WindowRight {
+    float:left;
+}
+
+.OutputText {
+    white-space: nowrap;
+}

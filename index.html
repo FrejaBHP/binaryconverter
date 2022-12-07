@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="converter.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--Binary to Decimal Converter-->
+    <div class="WindowLeft">
+        <p>Binær til Decimal</p>
+        <label for="firstOctetB">Første Oktet</label>
+        <input type="text" id="firstOctetB"></input>
+        <br>
+        <label for="secondOctetB">Anden Oktet</label>
+        <input type="text" id="secondOctetB"></input>
+        <br>
+        <label for="thirdOctetB">Tredje Oktet</label>
+        <input type="text" id="thirdOctetB"></input>
+        <br>
+        <label for="fourthOctetB">Fjerde Oktet</label>
+        <input type="text" id="fourthOctetB"></input>
+        <br><br>
+        <button onclick="DisplayDecimal()">Omregn til Decimaltal</button>
+        <br><br>
+        <label for="binaryOutput">Binær i Decimal:</label>
+        <input type="text" class="OutputText" id="binaryOutput" readonly="true" size="40"></input>
+    </div>
+    
+    <!--Decimal to Binary Converter-->
+    <div class ="WindowRight">
+        <p>Decimal til Binær</p>
+        <label for="firstOctetD">Første Oktet</label>
+        <input type="text" id="firstOctetD"></input>
+        <br>
+        <label for="secondOctetD">Anden Oktet</label>
+        <input type="text" id="secondOctetD"></input>
+        <br>
+        <label for="thirdOctetD">Tredje Oktet</label>
+        <input type="text" id="thirdOctetD"></input>
+        <br>
+        <label for="fourthOctetD">Fjerde Oktet</label>
+        <input type="text" id="fourthOctetD"></input>
+        <br><br>
+        <button onclick="DisplayBinary()">Omregn til Binærtal</button>
+        <br><br>
+        <label for="decimalOutPut">Decimal i Binær:</label>
+        <input type="text" class="OutputText" id="decimalOutput" readonly="true" size="40"></input>
+    </div>
+</body>
+</html>
